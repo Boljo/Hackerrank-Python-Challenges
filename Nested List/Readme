@@ -1,0 +1,38 @@
+Second Lowest Grade Students
+
+Problem Statement
+Given the names and grades of students in a class, store them in a nested list and identify the student(s) with the second lowest grade. Print their name(s) in alphabetical order, each on a new line if there are multiple.
+Note: If multiple students share the second lowest grade, sort their names alphabetically. There will always be at least one student with the second lowest grade.
+Example
+Consider an ordered list of scores: [37.2, 37.21, 37.21, 39, 41]. The lowest score is 37.2, and the second lowest is 37.21. If two students ("alpha" and "beta") have this score, print them alphabetically:
+textalpha
+beta
+Input Format
+
+The first line contains an integer N, the number of students.
+The next 2*N lines describe each student:
+Odd lines: Student's name (string).
+Even lines: Student's grade (float).
+
+
+Constraints
+
+2 ≤ N ≤ 5
+
+Output Format
+Print the name(s) of student(s) with the second lowest grade. If multiple, sort alphabetically and print each on a new line.
+Sample Input 0
+text5
+Harry
+37.21
+Berry
+37.21
+Tina
+37.2
+Akriti
+41
+Harsh
+39
+Sample Output 0
+textBerry
+Harry
